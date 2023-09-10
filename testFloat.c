@@ -29,7 +29,7 @@ void show_ieee754 (float f)
 
 int main (void) {
 
-    float f = 1.5;
+    float f = -18.75;
 
     printf ("\nIEEE-754 Single-Precision representation of: %f\n\n", f);
     show_ieee754 (f);
